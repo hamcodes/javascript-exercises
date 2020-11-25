@@ -17,3 +17,8 @@ function getMilk(money) {
 }
 
 getMilk(4);
+
+// function to test the bmi given inputs, rounded to the nearest whole number
+function bmiCalculator(weight, height) {
+  return Math.round(weight / (height * height));
+}
