@@ -43,6 +43,30 @@ loveScore = Math.floor(loveScore) + 1;
 
 if (loveScore > 70) {
     alert("Your love score is " + loveScore + "%" + " You love each other ver much!");
-}   else {
+}   
+
+if (loveScore > 30 && loveScore <= 70) {
     alert("Your love score is " + loveScore + "%");
 }
+
+if (loveScore <= 30) {
+    alert("Your love score is " + loveScore + "%" + " You go together like oil and water.")
+} 
+
+
+// function to determine whether a year is a leap year
+function isLeap(year) {
+  if (year % 4 === 0) {
+    if (year % 100 === 0) {
+      if (year % 400 === 0) {
+        return "Leap year.";
+      } else {
+        return "Not leap year.";
+      }
+    } else {
+      return "Leap year.";
+    }
+  } else {
+    return "Not leap year.";
+  }
+    }
