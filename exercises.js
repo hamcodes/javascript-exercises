@@ -8,3 +8,12 @@ function getAge(numberOfYears) {
 }
 
 getAge(12);
+
+
+// function to see remained of money spent to purchase an item
+function getMilk(money) {
+  var numberOfBottles = Math.floor(money / 1.5);
+  return money % 1.5;
+}
+
+getMilk(4);
