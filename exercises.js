@@ -92,3 +92,10 @@ function fizzBuzz() {
   count++;
   console.log(output);
 }
+
+// function to pick random element from array
+var names = ["Angela", "Jeremy", "Dan", "Bob"];
+function whosPaying(names) {
+  return names[Math.floor(Math.random()*names.length)];
+}
+whosPaying(names) + " is going to buy lunch today!";
